@@ -86,7 +86,14 @@ class Reset(PluginBase):
 
 class MousePosition(PluginBase):
     """A Plugin to display coordinates for the current mouse position
-
+    
+    Parameters
+    ----------
+    fontsize : float
+        font size.
+    fmt : str
+        D3 format specifier.
+        see: https://github.com/d3/d3-format/blob/master/README.md#format
     Example
     -------
     >>> import matplotlib.pyplot as plt
@@ -822,7 +829,13 @@ class MouseXPosition(PluginBase):
     }
   };"""
     """A Plugin to display coordinates for the current mouse position
-
+    Parameters
+    ----------
+    fontsize : float
+        font size.
+    fmt : str
+        D3 format specifier.
+        see: https://github.com/d3/d3-format/blob/master/README.md#format
     Example
     -------
     >>> import matplotlib.pyplot as plt
